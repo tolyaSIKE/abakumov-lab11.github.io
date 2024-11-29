@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Eracake;
+    src: url(fonts/Eracake.woff);
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #b6db31, #f1ea58);
+}
+h1 {
+    font-size: 36pt;
+}
+.container {
+    width: 800px;
+    height: 435px;
+    margin: auto;
+    margin-top: 5vh;
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+.card {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family: Eracake, sans-serif;
+    font-size: 40px;
+}
+#message {
+    height: 40px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+button {
+    height: 40px;
+    padding: 0px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(154, 226, 78);
+}
+button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 1s;
+}
+.hidden {
+    display: none;
+}
+.result-content {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .container {
+        max-width: 80%;
+        padding: 15px;
+    }
+    .card {
+        padding: 15px;
+        font-size: 20px;
+    }
+    #message {
+        font-size: 16px;
+        padding: 8px;
+    }
+    button {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+    .progress p, .stats p {
+        font-size: 14px;
+    }
+    #result-card {
+        padding: 15px;
+        font-size: 16px;
+    }
+}
